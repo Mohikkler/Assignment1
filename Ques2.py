@@ -1,0 +1,7 @@
+x=float(input("Please enter your gross family income="))
+y=float(input("PLease enter number of dependents on you="))
+print("Standard deduction= 10000")
+print("additional tax deduction due to dependents=", 3000*y)
+print("Total taxable income", x-10000-(3000*y))
+Z= x-10000-(3000*y)
+print("Total payable tax=",Z/5)
